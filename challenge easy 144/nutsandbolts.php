@@ -24,15 +24,13 @@ function nuts_and_bolts($filename) {
     }
 
     # Print changes
-    while($change = current($changes)) {
-        $key = key($changes);
-        echo "$key ";
-        if ($changes[$key] > 0) {
-            echo "+".$changes[$key]."<br />";
+    foreach($changes as $item => $change) {
+        echo $item." ";
+        if ($change > 0) {
+            echo "+".$change."<br />";
         } else {
-            echo $changes[$key]."<br />";
+            echo $change."<br />";
         }
-        next($changes);
     }
     
     fclose($filereader);
