@@ -11,7 +11,7 @@ My solutions to Daily Programmer.
 * [**Challenge #145: Tree Generation**](http://www.reddit.com/r/dailyprogrammer/comments/1t0r09/121613_challenge_145_easy_tree_generation/) - Bash
 
 ## Challenges (Intermediate)
-* [**Challenge #140**](http://www.reddit.com/r/dailyprogrammer/comments/1t6dlf/121813_challenge_140_intermediate_adjacency_matrix/) - Java
+* [**Challenge #140: Adjacency Matrix**](http://www.reddit.com/r/dailyprogrammer/comments/1t6dlf/121813_challenge_140_intermediate_adjacency_matrix/) - Java
 
 ## Winter Break 2013-2014 Programming Challenge
 * [**Language Choosing Spinner**](http://codepen.io/phantomesse/pen/wgIzp)
