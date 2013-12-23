@@ -9,6 +9,8 @@ My solutions to Daily Programmer.
 * [**Challenge #144: Nuts & Bolts**](http://www.reddit.com/r/dailyprogrammer/comments/1sob1e/121113_challenge_144_easy_nuts_bolts/) - PHP
 
 ## Aftab / Lauren Programming Schedule
+[**Language Choosing Spinner**](http://codepen.io/phantomesse/pen/wgIzp)
+
 ### Due Tuesday 12/24
 [**Challenge #145** in Bash](http://www.reddit.com/r/dailyprogrammer/comments/1t0r09/121613_challenge_145_easy_tree_generation/)
 
