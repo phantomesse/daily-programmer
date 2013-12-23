@@ -34,7 +34,6 @@ function analyze_numbers($numbers) {
             }
         }
 
-
     }
     fclose($filereader);
 }
@@ -44,34 +43,77 @@ function analyze_numbers_norepeat($numbers) {
     global $key;
     $numbers_array = str_split($numbers);
 
-    # Create an array of the number of letters per number in the number string
-    $combinations = array();
-    $number_of_combinations = 1;
+    # Get number of combinations per number
+    $combinations = [];
     foreach($numbers_array as $number) {
-        $num_letters = count($key[$number]);
-        $combinations[] = [$number, $num_letters];
-        $number_of_combinations *= $num_letters;
+        $combinations[$number] = count($key[$number]);
     }
 
-    # Create a string combinations array
-    $numbers_combinations = array();
-    for ($i = 0; $i < count($combinations); $i++) {
-        $number = $combinations[$i][0];
-        $num_letters = $combinations[$i][1];
+    $str1 = "";
+    $str2 = "";
+    $str3 = "";
+    $str4 = "";
+    $prefixes = array();
+    for($i = 0; $i < $combinations[$numbers_array[0]]; $i++) {
+        $str1 .= $numbers_array[0];
+        $str2 = "";
+        $str3 = "";
+        $str4 = "";
 
-        for ($j = 1; $j <= $num_letters; $j++) {
-            for ($k = 0; $k < $number_of_combinations; $k += $j) {
-                $numbers_combinations[$k] .= $number;
+        for($j = 0; $j < $combinations[$numbers_array[1]]; $j++) {
+            $str2 .= $numbers_array[1];
+            $str3 = "";
+            $str4 = "";
+
+            for($k = 0; $k < $combinations[$numbers_array[2]]; $k++) {
+                $str3 .= $numbers_array[2];
+                $str4 = "";
+
+                for($l = 0; $l < $combinations[$numbers_array[3]]; $l++) {
+                    $str4 .= $numbers_array[3];
+
+                    $prefix = "";
+                    foreach([$str1, $str2, $str3, $str4] as $number) {
+                        $times_pressed = strlen($number);
+                        $prefix .= $key[substr($number, 0, 1)][$times_pressed - 1];
+                    }
+
+                    $prefixes[] = $prefix;
+                }
+            }
+        }
+    }
+
+    sort($prefixes);
+
+    # Iterate through words to find ones with the matching prefixes
+    $startmatching = false;
+    $filereader = fopen('dictionary.txt','r');
+    while ($line = fgets($filereader)) {
+
+        if ($startmatching) {
+            if ($line[0] > $prefixes[count($prefixes)-1][0]) {
+                $startmatching = false;
+            }
+
+            foreach ($prefixes as $prefix) {
+                if (strlen($prefix) < strlen($line)) {
+                    $line_substr = substr($line, 0, strlen($prefix));
+                    if ($line_substr === $prefix) {
+                        echo "$line<br />";
+                        break;
+                    }
+                }
+            }
+
+        } else {
+            if ($line[0] == $prefixes[0][0]) {
+                $startmatching = true;
             }
         }
 
     }
-
-    foreach($numbers_combinations as $blah) {
-        echo $blah."<br />";
-    }
-
-    var_dump($combinations);
+    fclose($filereader);
 }
 
 echo "<h1>INPUT</h1>";
