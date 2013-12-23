@@ -1,8 +1,4 @@
 #!/bin/bash
-echo "number of tiers = "$1
-echo "trunk character = "$2
-echo "tree character = "$3
-
 for (( width=1; width<=$1; width+=2 ))
 do
     tier=""
