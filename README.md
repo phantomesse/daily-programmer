@@ -9,6 +9,7 @@ My solutions to Daily Programmer.
 * [**Challenge #143: Braille**](http://www.reddit.com/r/dailyprogrammer/comments/1s061q/120313_challenge_143_easy_braille/) - OCaml
 * [**Challenge #144: Nuts & Bolts**](http://www.reddit.com/r/dailyprogrammer/comments/1sob1e/121113_challenge_144_easy_nuts_bolts/) - PHP
 * [**Challenge #145: Tree Generation**](http://www.reddit.com/r/dailyprogrammer/comments/1t0r09/121613_challenge_145_easy_tree_generation/) - Bash
+* [**Challenge #146: Polygon Perimeter**](http://www.reddit.com/r/dailyprogrammer/comments/1tixzk/122313_challenge_146_easy_polygon_perimeter/)
 
 ## Challenges (Intermediate)
 * [**Challenge #139: Telephone Keypads**](http://www.reddit.com/r/dailyprogrammer/comments/1sody4/12113_challenge_139_intermediate_telephone_keypads/) - PHP
