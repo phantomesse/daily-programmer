@@ -16,6 +16,7 @@ My solutions to Daily Programmer.
 * [**Challenge #2**](http://www.reddit.com/r/dailyprogrammer/comments/pjbj8/easy_challenge_2/) - MATLAB
 * [**Challenge #3**](http://www.reddit.com/r/dailyprogrammer/comments/pkw2m/2112012_challenge_3_easy/) - Java
 * [**Challenge #34**](http://www.reddit.com/r/dailyprogrammer/comments/rmmn8/3312012_challenge_34_easy/) - MATLAB
+* [**Challenge #112: Get that URL**](http://www.reddit.com/r/dailyprogrammer/comments/137f7t/11142012_challenge_112_easyget_that_url/)
 * [**Challenge #141: Checksums**](http://www.reddit.com/r/dailyprogrammer/comments/1qwkdz/111113_challenge_141_easy_checksums/) - Java
 * [**Challenge #143: Braille**](http://www.reddit.com/r/dailyprogrammer/comments/1s061q/120313_challenge_143_easy_braille/) - OCaml
 * [**Challenge #144: Nuts & Bolts**](http://www.reddit.com/r/dailyprogrammer/comments/1sob1e/121113_challenge_144_easy_nuts_bolts/) - PHP
