@@ -10,6 +10,9 @@ int main() {
     int lines = 0;
     scanf("%d", &lines);
 
+    // Clear new line thing
+    scanf("%*c");
+
     // Create a line by BUFFER_LENGTH matrix
     char matrix[lines][BUFFER_LENGTH];
     for (int i = 0; i < lines; i++) {
@@ -18,22 +21,26 @@ int main() {
         }
     }
 
-    // Clear new line thing
-    p = fgets(matrix[0], BUFFER_LENGTH, stdin);
-
     // Read lines and put into matrix
     int max_str_length = 0;
     for (int i = 0; i < lines; i++) {
         p = fgets(matrix[i], BUFFER_LENGTH, stdin);
         
-        // Set max string length
+        // Get string length
         int str_length = (int) strlen(matrix[i]);
+
+        // Put end character in
+        if (matrix[i][str_length - 1] == '\n') {
+            matrix[i][str_length - 1] = '\0';
+            str_length = str_length - 1;
+        } else {
+            matrix[i][str_length] = '\0';
+        }
+
+        // Set max string length
         if (str_length > max_str_length) {
             max_str_length = str_length;
         }
-
-        // Put end character in
-        matrix[i][str_length] = '\0';
     }
 
     // Print matrix vertically
@@ -48,4 +55,5 @@ int main() {
         printf("\n");
     }
 
+    return 0;
 }
