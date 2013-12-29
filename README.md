@@ -3,9 +3,6 @@ My solutions to Daily Programmer.
 
 ## Challenges In-Progress
 
-### Challenges (Intermediate)
-* [**Challenge #138: Overlapping Circles**](http://www.reddit.com/r/dailyprogrammer/comments/1s6484/120513_challenge_138_intermediate_overlapping/)
-
 ### Challenges (Hard)
 * [**Challenge #130: Coloring France's Departments**](http://www.reddit.com/r/dailyprogrammer/comments/1tj0kl/122313_challenge_130_hard_coloring_frances/)
 
@@ -24,6 +21,7 @@ My solutions to Daily Programmer.
 * [**Challenge #146: Polygon Perimeter**](http://www.reddit.com/r/dailyprogrammer/comments/1tixzk/122313_challenge_146_easy_polygon_perimeter/) - MATLAB
 
 ### Challenges (Intermediate)
+* [**Challenge #138: Overlapping Circles**](http://www.reddit.com/r/dailyprogrammer/comments/1s6484/120513_challenge_138_intermediate_overlapping/) - Python
 * [**Challenge #139: Telephone Keypads**](http://www.reddit.com/r/dailyprogrammer/comments/1sody4/12113_challenge_139_intermediate_telephone_keypads/) - PHP
 * [**Challenge #140: Adjacency Matrix**](http://www.reddit.com/r/dailyprogrammer/comments/1t6dlf/121813_challenge_140_intermediate_adjacency_matrix/) - Java
 
