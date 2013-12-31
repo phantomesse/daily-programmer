@@ -14,7 +14,7 @@ My solutions to Daily Programmer.
 * [**Challenge #3**](http://www.reddit.com/r/dailyprogrammer/comments/pkw2m/2112012_challenge_3_easy/) - Java
 * [**Challenge #34**](http://www.reddit.com/r/dailyprogrammer/comments/rmmn8/3312012_challenge_34_easy/) - MATLAB
 * [**Challenge #112: Get that URL**](http://www.reddit.com/r/dailyprogrammer/comments/137f7t/11142012_challenge_112_easyget_that_url/) - JavaScript
-* [**Challenge #136: Student Management**](http://www.reddit.com/r/dailyprogrammer/comments/1kphtf/081313_challenge_136_easy_student_management/)
+* [**Challenge #136: Student Management**](http://www.reddit.com/r/dailyprogrammer/comments/1kphtf/081313_challenge_136_easy_student_management/) - PHP
 * [**Challenge #137: String Transposition**](http://www.reddit.com/r/dailyprogrammer/comments/1m1jam/081313_challenge_137_easy_string_transposition/) - C
 * [**Challenge #141: Checksums**](http://www.reddit.com/r/dailyprogrammer/comments/1qwkdz/111113_challenge_141_easy_checksums/) - Java
 * [**Challenge #143: Braille**](http://www.reddit.com/r/dailyprogrammer/comments/1s061q/120313_challenge_143_easy_braille/) - OCaml
