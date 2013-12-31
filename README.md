@@ -23,6 +23,7 @@ My solutions to Daily Programmer.
 * [**Challenge #146: Polygon Perimeter**](http://www.reddit.com/r/dailyprogrammer/comments/1tixzk/122313_challenge_146_easy_polygon_perimeter/) - MATLAB
 
 ### Challenges (Intermediate)
+* [**Challenge #123: Synchronizing Calendars**](http://www.reddit.com/r/dailyprogrammer/comments/1dx3wj/050813_challenge_123_intermediate_synchronizing/) - Java
 * [**Challenge #138: Overlapping Circles**](http://www.reddit.com/r/dailyprogrammer/comments/1s6484/120513_challenge_138_intermediate_overlapping/) - Python
 * [**Challenge #139: Telephone Keypads**](http://www.reddit.com/r/dailyprogrammer/comments/1sody4/12113_challenge_139_intermediate_telephone_keypads/) - PHP
 * [**Challenge #140: Adjacency Matrix**](http://www.reddit.com/r/dailyprogrammer/comments/1t6dlf/121813_challenge_140_intermediate_adjacency_matrix/) - Java
