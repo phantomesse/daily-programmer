@@ -15,6 +15,7 @@ My solutions to Daily Programmer.
 * [**Challenge #4: Random Password Generator**](http://www.reddit.com/r/dailyprogrammer/comments/pm6oj/2122012_challenge_4_easy/) - Python
 * [**Challenge #34: Sum of Squares**](http://www.reddit.com/r/dailyprogrammer/comments/rmmn8/3312012_challenge_34_easy/) - MATLAB
 * [**Challenge #39: FizzBuzz**](http://www.reddit.com/r/dailyprogrammer/comments/s6bas/4122012_challenge_39_easy/) - Python
+* [**Challenge #40: Print 1 to 1000 without Loops**](http://www.reddit.com/r/dailyprogrammer/comments/schtf/4162012_challenge_40_easy/) - Python
 * [**Challenge #112: Get that URL**](http://www.reddit.com/r/dailyprogrammer/comments/137f7t/11142012_challenge_112_easyget_that_url/) - JavaScript
 * [**Challenge #136: Student Management**](http://www.reddit.com/r/dailyprogrammer/comments/1kphtf/081313_challenge_136_easy_student_management/) - PHP
 * [**Challenge #137: String Transposition**](http://www.reddit.com/r/dailyprogrammer/comments/1m1jam/081313_challenge_137_easy_string_transposition/) - C
