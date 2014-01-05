@@ -9,9 +9,9 @@ My solutions to Daily Programmer.
 ## Completed Challenges
 
 ### Challenges (Easy)
-* [**Challenge #1: Name, Age, Username**](http://www.reddit.com/r/dailyprogrammer/comments/pih8x/easy_challenge_1/) - MATLAB
-* [**Challenge #2: F=MA Calculator**](http://www.reddit.com/r/dailyprogrammer/comments/pjbj8/easy_challenge_2/) - MATLAB
-* [**Challenge #3: Caesar Cipher**](http://www.reddit.com/r/dailyprogrammer/comments/pkw2m/2112012_challenge_3_easy/) - Java
+* [**Challenge #1: Name, Age, Username**](http://www.reddit.com/r/dailyprogrammer/comments/pih8x/easy_challenge_1/) - [MATLAB](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20easy%20001)
+* [**Challenge #2: F=MA Calculator**](http://www.reddit.com/r/dailyprogrammer/comments/pjbj8/easy_challenge_2/) - [MATLAB](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20easy%20002)
+* [**Challenge #3: Caesar Cipher**](http://www.reddit.com/r/dailyprogrammer/comments/pkw2m/2112012_challenge_3_easy/) - [Java](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20easy%20003)
 * [**Challenge #4: Random Password Generator**](http://www.reddit.com/r/dailyprogrammer/comments/pm6oj/2122012_challenge_4_easy/) - Python
 * [**Challenge #34: Sum of Squares**](http://www.reddit.com/r/dailyprogrammer/comments/rmmn8/3312012_challenge_34_easy/) - MATLAB
 * [**Challenge #39: FizzBuzz**](http://www.reddit.com/r/dailyprogrammer/comments/s6bas/4122012_challenge_39_easy/) - Python
