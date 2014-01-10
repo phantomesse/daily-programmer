@@ -27,6 +27,7 @@ My solutions to Daily Programmer.
 
 ### Challenges (Intermediate)
 * [**Challenge #123: Synchronizing Calendars**](http://www.reddit.com/r/dailyprogrammer/comments/1dx3wj/050813_challenge_123_intermediate_synchronizing/) - [Java](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20123)
+* [**Challenge #129: N-Dimensional Vectors**](http://www.reddit.com/r/dailyprogrammer/comments/1hzq9y/071013_challenge_129_intermediate_ndimensional/) - [Python](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20129)
 * [**Challenge #138: Overlapping Circles**](http://www.reddit.com/r/dailyprogrammer/comments/1s6484/120513_challenge_138_intermediate_overlapping/) - [Python](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20138)
 * [**Challenge #139: Telephone Keypads**](http://www.reddit.com/r/dailyprogrammer/comments/1sody4/12113_challenge_139_intermediate_telephone_keypads/) - [PHP](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20139)
 * [**Challenge #140: Adjacency Matrix**](http://www.reddit.com/r/dailyprogrammer/comments/1t6dlf/121813_challenge_140_intermediate_adjacency_matrix/) - [Java](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20140)
