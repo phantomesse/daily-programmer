@@ -1,19 +1,18 @@
 import java.util.Scanner;
 
-public class CaesarCipher {
+public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         
         // Get key
-        System.out.print("Key = ");
         int key = in.nextInt();
         in.nextLine();
 
         // Get message
-        System.out.print("Message = ");
         String message = in.nextLine();
         String code = encrypt(key, message);
 
+        System.out.println("Message = " + message);
         System.out.println("\nEncoded with key = " + key + "\n" + code);
         System.out.println("\nDecoded with key = " + key + "\n" + decrypt(key, code));
     }
