@@ -5,8 +5,10 @@ test()
 {
     executable=$1
     tests=$2
+    echo 'my tests are '$tests
     for test in $tests
     do
+        echo 'testing '$test
         $executable < 'tests/'$test
     done
 }
@@ -51,13 +53,13 @@ do
         case "$ext" in
             c) # C
                 gcc $file -o main
-                test ./$main $tests
+                test ./$main "$tests"
                 rm main
                 ;;
             java) # Java
                 echo $file
                 javac $file
-                test 'java Main' $tests
+                test 'java Main' "$tests"
                 rm Main.class
                 ;;
             m) # MATLAB
@@ -67,13 +69,13 @@ do
             ml) # TODO: Add compilation for OCaml
                 ;;
             py) # Python
-                test ./$file $tests
+                test ./$file "$tests"
                 ;;
             sh) # Bash
-                test ./$file $tests
+                test ./$file "$tests"
                 ;;
             *) # Some executable
-                test ./$file $tests
+                test ./$file "$tests"
                 ;;
         esac
         break
