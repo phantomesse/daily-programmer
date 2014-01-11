@@ -5,7 +5,6 @@ test()
 {
     executable=$1
     tests=$2
-    echo 'my tests are '$tests
     for test in $tests
     do
         echo 'testing '$test
