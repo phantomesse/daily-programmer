@@ -28,6 +28,7 @@ My solutions to Daily Programmer.
 * [**Challenge #146: Polygon Perimeter**](http://www.reddit.com/r/dailyprogrammer/comments/1tixzk/122313_challenge_146_easy_polygon_perimeter/) - [MATLAB](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20easy%20146)
 
 ### Challenges (Intermediate)
+* [**Challenge #100: "Bad" Word Filter**](http://www.reddit.com/r/dailyprogrammer/comments/106gse/9202012_challenge_100_intermediate_bad_word_filter/) - [Perl](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20100)
 * [**Challenge #123: Synchronizing Calendars**](http://www.reddit.com/r/dailyprogrammer/comments/1dx3wj/050813_challenge_123_intermediate_synchronizing/) - [Java](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20123)
 * [**Challenge #129: N-Dimensional Vectors**](http://www.reddit.com/r/dailyprogrammer/comments/1hzq9y/071013_challenge_129_intermediate_ndimensional/) - [Python](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20129)
 * [**Challenge #138: Overlapping Circles**](http://www.reddit.com/r/dailyprogrammer/comments/1s6484/120513_challenge_138_intermediate_overlapping/) - [Python](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20138)
