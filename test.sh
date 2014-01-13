@@ -5,11 +5,17 @@ test()
 {
     executable=$1
     tests=$2
-    for test in $tests
-    do
-        echo 'testing '$test
-        $executable < 'tests/'$test
-    done
+
+    if [[ $tests == '' ]]; then
+        # No tests
+        $executable
+    else
+        for test in $tests
+        do
+            echo 'testing '$test
+            $executable < 'tests/'$test
+        done
+    fi
 }
 
 # Retrieve challenge info
@@ -52,7 +58,7 @@ do
         case "$ext" in
             c) # C
                 gcc $file -o main
-                test ./$main "$tests"
+                test ./main "$tests"
                 rm main
                 ;;
             java) # Java
@@ -66,6 +72,12 @@ do
                 matlab -nodisplay -r "main; quit"
                 ;;
             ml) # TODO: Add compilation for OCaml
+                ocamlc -o main str.cma $file
+                test ./main "$tests"
+                rm *.cmi *.cmo
+                ;;
+            php) # PHP
+                test 'php main.php' "$tests"
                 ;;
             py) # Python
                 test ./$file "$tests"
