@@ -26,6 +26,7 @@ My solutions to Daily Programmer.
 * [**Challenge #144: Nuts & Bolts**](http://www.reddit.com/r/dailyprogrammer/comments/1sob1e/121113_challenge_144_easy_nuts_bolts/) - [PHP](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20easy%20144)
 * [**Challenge #145: Tree Generation**](http://www.reddit.com/r/dailyprogrammer/comments/1t0r09/121613_challenge_145_easy_tree_generation/) - [Bash](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20easy%20145)
 * [**Challenge #146: Polygon Perimeter**](http://www.reddit.com/r/dailyprogrammer/comments/1tixzk/122313_challenge_146_easy_polygon_perimeter/) - [MATLAB](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20easy%20146)
+* [**Challenge #148: Combination Lock**](http://www.reddit.com/r/dailyprogrammer/comments/1v4cjd/011314_challenge_148_easy_combination_lock/) - [OCaml](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20easy%20148)
 
 ### Challenges (Intermediate)
 * [**Challenge #100: "Bad" Word Filter**](http://www.reddit.com/r/dailyprogrammer/comments/106gse/9202012_challenge_100_intermediate_bad_word_filter/) - [Perl](https://github.com/phantomesse/daily-programmer/tree/master/challenge%20intermediate%20100)
